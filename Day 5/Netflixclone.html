@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone - Simplified</title>
+    <style>
+
+        body {
+            font-family: 'Arial Black', Arial, sans-serif; /* Different font style for a bold look */
+            background-color: #000000; /* Black background for the rest of the page */
+            color: white;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                              url(https://churchlifejournal.nd.edu/assets/515222/1200x/1900px_ozymandias_breaking_bad.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 550px;
+            padding: 20px;
+        }
+
+        
+        .navbar {
+            margin-bottom: 100px; 
+            overflow: hidden; 
+        }
+
+        .logo {
+            float: left;
+            color: #4f09d1; 
+            font-size: 35px;
+            margin-left: 40px;
+        }
+
+        .signin-btn {
+            float: right;
+            background-color: #7b09e5;
+            color: white;
+            padding: 7px 17px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 40px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .signin-btn:hover {
+            background-color: #4f08d3; 
+        }
+
+       
+        h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-family: Arial, sans-serif; 
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        
+        input {
+            padding: 15px;
+            font-size: 16px;
+            width: 350px;
+            border: 1px solid #8c8c8c;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            margin-right: 10px;
+        }
+
+        .get-started-btn {
+            background-color: #4409e5;
+            color: white;
+            font-size: 20px;
+            padding: 13px 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .get-started-btn:hover {
+            background-color: #7f06cf;
+        }
+
+    
+        .features-container {
+            padding: 50px 20px;
+            background-color: #000000;
+        }
+
+        .feature-box {
+            display: inline-block; 
+            width: 25%;
+            margin: 20px;
+            padding: 25px;
+            background-color: #181818; 
+            border-radius: 8px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .feature-box h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #0918e5;
+        }
+
+        .feature-box p {
+            font-size: 15px;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="hero">
+        
+        <!-- Header / Navbar -->
+        <div class="navbar">
+            <div class="logo">NETFLIX</div>
+            <button class="signin-btn">Sign In</button>
+        </div>
+
+        <!-- Main Landing Content -->
+        <h1>Unlimited movies, <br>TV shows, and more.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <p style="font-size: 16px;">Ready to watch? Enter your email to create your membership.</p>
+        
+        <!-- Form -->
+        <input type="email" placeholder="Email address">
+        <button class="get-started-btn">Get Started &gt;</button>
+
+    </div>
+
+    <!-- Bottom Features Section -->
+    <div class="features-container">
+        
+        <div class="feature-box">
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Download to watch offline</h3>
+            <p>Save your favorites easily and always have something to watch.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
